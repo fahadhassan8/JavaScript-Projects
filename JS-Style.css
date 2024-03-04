@@ -100,7 +100,7 @@ a{
 }
 .card-img img:hover{
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .card-head{
     width: 100%;
@@ -109,12 +109,11 @@ a{
     justify-content: center;
     text-align: center;
     color: #fff;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.4rem;
+    font-weight: 600;
     font-family: sans-serif;
     margin-top: 0.7em;
 }
-
 .card-para{
     width: 100%;
     display: flex;
@@ -123,8 +122,12 @@ a{
     text-align: center;
     color: #fff;
     font-family: sans-serif;
-    font-size: 0.8rem;
-    line-height: 1.5em;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+.card-para a:hover{
+    color:#82654b
 }
 @media only screen and (max-width:768px){
     header{
