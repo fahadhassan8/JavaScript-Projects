@@ -129,6 +129,50 @@ a{
 .card-para a:hover{
     color:#82654b
 }
+.footerLastPart{
+    background-color: #1a1a1a;
+    width:100%;
+    height:auto;
+}
+.footerLast p{
+    font-family: My-Caveat;
+    text-align: center;
+    padding:2rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.goBack a{
+    color: #fff;
+    text-decoration: none;
+    font-family: My-Caveat;
+}
+.goBack a:hover{
+    color:#82654b;
+}
+.pakolaImg img{
+    border-radius: 3em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.goTOTopBox {
+    width:2.6em;
+    height:2.6em;
+    border-radius: 1.3em;
+    position: relative;
+    left:2em;
+    bottom:2rem;
+    background-color: #82654b;
+}
+.goTOTopBox a{
+    text-decoration: none;
+    color: #0a0908;
+}
+.goTOTopBox i{
+    position: absolute;
+    left:0.5em;
+    top: 0.3em;
+    font-size: 1.5rem;
+    width:3rem;
+}
 @media only screen and (max-width:768px){
     header{
         justify-content: space-between;
@@ -141,8 +185,17 @@ a{
         font-size: 2.5rem;
         padding: 0 10px;
     }
+    .footerLast p{
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width:360px){
+    .card{
+        width: 95% !important;
+    }
+    .card-img img{
+        width: 100%;
+    }
     label{
         font-size: 1.5rem;
         padding: 0px;
@@ -154,4 +207,7 @@ a{
     .head1 h1{
         font-size: 2.2rem;
     }
+    .footerLast{
+        height:auto
+    }    
 }
