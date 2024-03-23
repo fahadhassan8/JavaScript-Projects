@@ -19,5 +19,10 @@ function removeTransition(e) {
     // console.log(e.propertyName)
     this.classList.remove("playing");
 }
+function handleClick(){
+  const keyCode = this.getAttribute('data-key');
+  playSound({ keyCode: keyCode });
+}
+keys.forEach((key) => key.addEventListener("click", handleClick));
 keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
 window.addEventListener("keydown", playSound);

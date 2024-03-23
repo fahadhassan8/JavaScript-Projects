@@ -45,7 +45,12 @@ kbd {
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
 }
-@media (max-width:360px){
+@media (max-width:992px){
+    .key {
+        width: 7rem;
+    }
+}
+@media (max-width:576px){
     .key {
         border: .5rem solid black;
         border-radius: .5rem;
